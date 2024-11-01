@@ -1,0 +1,45 @@
+#wpcontent {
+  background-color:#fafafa;
+}
+
+#wpcmt-wrap input[type="checkbox"] {
+  vertical-align: baseline;
+}
+
+#wpac-setup input[type="checkbox"]:before,
+#wpac-setup input[type="radio"]:before,
+#wpcmt-wrap input[type="checkbox"]:before,
+#wpcmt-wrap input[type="radio"]:before {
+  margin: 0;
+}
+
+#wpcmt-wrap .wpcmt-exported ,
+#wpcmt-wrap .wpcmt-imported {
+  color: #4caf50;
+}
+
+#wpcmt-tabs {
+  text-align: right;
+}
+
+#wpcmt-tabs li {
+  display: inline-block;
+  color: #333;
+  padding: 0.25em;
+  height: 16px;
+  cursor: pointer;
+  margin-right: 8px;
+  text-align: right;
+}
+
+#wpcmt-tabs li.selected {
+  font-weight: bold;
+}
+
+#wpac-admin .sidebar, #wpac-admin .navbar {
+  display: none;
+}
+
+#wpcmt-plugin-pane .wpcmt-enabled-text {
+  color: #4caf50;
+}
